@@ -5,8 +5,8 @@
   Change the lyric text below if you have permission to use it.
 */
 const lyrics = [
-  { time: 0.0, text: "I text a postcard sent to you" },
-  { time: 5.0, text: "Did it go through?" },
+  { time: 2.0, text: "I text a postcard sent to you" },
+  { time: 4.0, text: "Did it go through?" },
   { time: 10.0, text: "Sendin' all my love to you" },
   { time: 15.0, text: "You are the moonlight of my life" },
   { time: 20.0, text: "Every night" },
@@ -15,7 +15,7 @@ const lyrics = [
 
 // Approximate cuts from the reference video (about 32 seconds).
 const timeline = [
-  [0, 2.0, "postcardScene"],
+  [2, 2.0, "postcardScene"],
   [2.0, 4.0, "sentScene"],
   [4.0, 8.0, "truckScene"],
   [8.0, 16.0, "phoneScene"],
