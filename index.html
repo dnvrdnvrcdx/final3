@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>for you</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="experience">
+    <!-- 0 — postcard / envelope -->
+    <section class="scene scene-postcard is-active" id="postcardScene">
+      <div class="vignette"></div>
+      <div class="postcard">
+        <div class="postcard-word">POSTCARD</div>
+        <div class="postcard-lines"></div>
+        <div class="postmark">✉</div>
+        <div class="postcard-note">for you</div>
+      </div>
+      <button class="start" id="start">click to open this envelope</button>
+    </section>
+
+    <!-- 1 — SENT TO YOU -->
+    <section class="scene scene-sent" id="sentScene">
+      <div class="vignette"></div>
+      <div class="sent-card">SENT<br><span>TO</span><br>YOU</div>
+      <div class="small-envelope" aria-hidden="true"></div>
+    </section>
+
+    <!-- 2 — truck -->
+    <section class="scene scene-truck" id="truckScene">
+      <div class="vignette"></div>
+      <div class="doodle-cloud cloud1">☁</div>
+      <div class="doodle-cloud cloud2">☁</div>
+      <div class="trees">♠ ♠</div>
+      <div class="truck-road"></div>
+      <div class="truck" id="truck">
+        <div class="box"><div class="truck-envelope">✉</div><span>did<br>it<br>go</span></div>
+        <div class="cab"><div class="window"></div></div>
+        <div class="wheel w1"></div><div class="wheel w2"></div>
+      </div>
+      <div class="through">THROUGH?</div>
+    </section>
+
+    <!-- 3 — phone / messages -->
+    <section class="scene scene-phone" id="phoneScene">
+      <div class="vignette"></div>
+      <div class="phone-drawing">
+        <div class="ig-top">◎ &nbsp; instagram &nbsp;⌁</div>
+        <img src="assets/photos/photo01.jpg" alt="">
+        <div class="ig-bottom">♡ &nbsp; ♡ &nbsp; ♡</div>
+      </div>
+      <div class="messages">
+        <span class="m m1">you: <b>ganda mo po</b></span>
+        <span class="m m2">you: <b>cantik</b></span>
+        <span class="m m3">you: <b>pretty</b></span>
+        <span class="m m4"><b>beautiful.....</b></span>
+        <span class="m m5">to you</span>
+      </div>
+      <div class="lyrics" id="lyrics"></div>
+      <button class="play" id="playPause" aria-label="Play or pause">▶</button>
+      <div class="progress"><span id="progressBar"></span></div>
+      <audio id="song" preload="auto" src="assets/audio/song.mp3"></audio>
+    </section>
+
+    <!-- 4 — photo on board -->
+    <section class="scene scene-board" id="boardScene">
+      <div class="board-vignette"></div>
+      <div class="string s1"></div><div class="string s2"></div>
+      <div class="pin p1"></div><div class="pin p2"></div>
+      <div class="board-note">you are<br><span>my favorite</span></div>
+      <figure class="board-photo"><img src="assets/photos/photo02.jpg" alt="Memory"></figure>
+      <figure class="board-photo small"><img src="assets/photos/photo03.jpg" alt="Memory"></figure>
+      <div class="board-script">you might</div>
+    </section>
+
+    <!-- 5 — ending desk -->
+    <section class="scene scene-ending" id="endingScene">
+      <div class="desk-vignette"></div>
+      <div class="clock">◷</div>
+      <div class="vinyl"><div></div></div>
+      <div class="camera">◎</div>
+      <div class="desk-photo p01"><img src="assets/photos/photo04.jpg" alt="Memory"></div>
+      <div class="desk-photo p02"><img src="assets/photos/photo05.jpg" alt="Memory"></div>
+      <div class="desk-photo p03"><img src="assets/photos/photo06.jpg" alt="Memory"></div>
+      <div class="end-word">for<br>you</div>
+      <div class="editable" id="finalText">TYPE YOUR MESSAGE HERE</div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
