@@ -5,12 +5,12 @@
   Change the lyric text below if you have permission to use it.
 */
 const lyrics = [
-  { time: 0.0, text: "TYPE LYRIC 01 HERE" },
-  { time: 5.0, text: "TYPE LYRIC 02 HERE" },
-  { time: 10.0, text: "TYPE LYRIC 03 HERE" },
-  { time: 15.0, text: "TYPE LYRIC 04 HERE" },
-  { time: 20.0, text: "TYPE LYRIC 05 HERE" },
-  { time: 25.0, text: "TYPE LYRIC 06 HERE" }
+  { time: 0.0, text: "I text a postcard sent to you" },
+  { time: 5.0, text: "Did it go through?" },
+  { time: 10.0, text: "Sendin' all my love to you" },
+  { time: 15.0, text: "You are the moonlight of my life" },
+  { time: 20.0, text: "Every night" },
+  { time: 25.0, text: "Givin' all my love to you" }
 ];
 
 // Approximate cuts from the reference video (about 32 seconds).
