@@ -15,7 +15,7 @@ const lyrics = [
 
 // Approximate cuts from the reference video (about 32 seconds).
 const timeline = [
-  [2, 2.0, "postcardScene"],
+  [0, 2.0, "postcardScene"],
   [2.0, 4.0, "sentScene"],
   [4.0, 8.0, "truckScene"],
   [8.0, 16.0, "phoneScene"],
